@@ -4,47 +4,93 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Renaissance Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pinyon+Script&display=swap" rel="stylesheet">
     <style>
+      body {
+        margin: 10px;
+        padding: 10px 10px 80px 10px;
+        font-family: 'EB Garamond', serif; font-size: 1.2em;
+        color: #666;
+        text-align: center;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0; padding: 0;
+        color: #000;
+      }
+      h1 { font-family: 'Pinyon Script', cursive; font-size: 5em; }
+      h2 { font-family: 'Pinyon Script', cursive; font-size: 3em; margin: 0.8em 0 0.1em 0; }
+
+      header { text-align: center; margin: 0 0 4em 0; }
+      header h2 {
+        position: relative;
+        top: -0.4em;
+        margin: 0;
+        color: #666;
+      }
+
+      .conference-date {
+        margin: 0.2em 0 0 0;
+        font-size: 2em;
+        font-family: 'EB Garamond', serif;
+        color: #AAA;
+        letter-spacing: 0.1em;
+      }
+
       dt { font-weight: bold; }
+      p { margin: 0; padding: 0; }
+      ul { margin: 0; padding: 0; list-style: none; }
+      dl { margin: 0; padding: 0; }
+      b, dt { color: #000; }
+      dd { margin: 0; padding: 0; }
+      dt { margin-top: 1em; }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
     </style>
   </head>
   <body>
-    <center>
+    <header>
       <h1>Renaissance Code</h1>
-      <h2>October 14&ndash;15, 2026</h2>
-    </center>
+      <h2>A Programming Conference</h2>
+      <h2 class="conference-date">October 14&ndash;15, 2026</h2>
+    </header>
 
-    <h2>Location</h2>
-    <p><a href="https://www.thebayviewinn.com/">Bay View Inn</a>, Petoskey, Michigan</p>
+    <div class="content">
+      <h2>Whom will be speaking?</h2>
+      <ul>
+        <li><b>Dave Thomas</b>, author of The Pragmatic Programmer</li>
+        <li><b>Jason Swett</b>, host of the Code with Jason Podcast</li>
+      </ul>
 
-    <h2>Speakers</h2>
-    <ul>
-      <li><b>Dave Thomas</b>, author of The Pragmatic Programmer</li>
-      <li><b>Jason Swett</b>, host of the Code with Jason Podcast</li>
-    </ul>
+      <h2>Where shall it take place?</h2>
+      <p><a href="https://www.thebayviewinn.com/">Bay View Inn</a>, Petoskey, Michigan</p>
 
-    <h2>FAQ</h2>
-    <dl>
-      <dt>Who's behind this shenanigan?</dt>
-      <dd>Me, Jason Swett.</dd>
+      <h2>Questions which are Frequently Asked</h2>
+      <dl>
+        <dt>Who's behind this shenanigan?</dt>
+        <dd>Me, Jason Swett.</dd>
 
-      <dt>What's the theme of the conference? Why is it called "Renaissance Code"?</dt>
-      <dd>
-        Taking inspiration from the polymaths of the Scientific Revolution like Da Vinci and Galileo,
-        Renaissance Code aims to combine programming with science,
-        philosophy, engineering, psychology, linguistics, art, design, economics,
-        and perhaps a splash of Miller High Life.
-        "We shall not cease from exploration, and the end of all our exploring will be to arrive where we started, and know the place for the first time."
-      </dd>
+        <dt>What's the theme of the conference? Why is it called "Renaissance Code"?</dt>
+        <dd>
+          Taking inspiration from the polymaths of the Scientific Revolution like Da Vinci and Galileo,
+          Renaissance Code aims to combine programming with science,
+          philosophy, engineering, psychology, linguistics, art, design, economics,
+          and perhaps a splash of Miller High Life.
+          "We shall not cease from exploration, and the end of all our exploring will be to arrive where we started, and know the place for the first time."
+        </dd>
 
-      <dt>How many people will be there?</dt>
-      <dd>Between 20 and 25.</dd>
+        <dt>How many people will be there?</dt>
+        <dd>Between 20 and 25.</dd>
 
-      <dt>What is Petoskey like?</dt>
-      <dd>Petoskey is a beautiful small resort town on the shore of Lake Michigan, in Northern Michigan. Petoskey does <i>not</i> have a major airport, so consider your travel before buying a ticket!</dd>
+        <dt>What is Petoskey like?</dt>
+        <dd>Petoskey is a beautiful small resort town on the shore of Lake Michigan, in Northern Michigan. Petoskey does <i>not</i> have a major airport, so consider your travel before buying a ticket!</dd>
 
-      <dt>How do I book my hotel room?</dt>
-      <dd>Call the Bay View Inn at (231) 347-2771 and ask to book in Jason Swett's room block.</dd>
-    </dl>
+        <dt>How do I book my hotel room?</dt>
+        <dd>Call the Bay View Inn at (231) 347-2771 and ask to book in Jason Swett's room block.</dd>
+      </dl>
+    </div>
   </body>
 </html>
